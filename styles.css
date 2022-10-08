@@ -35,8 +35,8 @@
     color: #E5E7EB;
 }
 
-/** Body One **/
-.body-one {
+/** Section One **/
+.section-one {
     background-color: #1F2937;
 }
 
@@ -53,7 +53,7 @@
     width: 500px;
 }
     
-.one-texts h1{
+.one-texts h1 {
     color: #f9faf8;
     font-weight: 900;
     font-size: 48px;
@@ -73,7 +73,7 @@
     border-radius: 7px;
 }
 
-button {
+.button-section-one {
     border: none;
     font-size: 18px;
     width: 120px;
@@ -83,18 +83,18 @@ button {
     color: #E5E7EB;
 }
 
-/** Body two **/
-.body-two {
+/** Section two **/
+.section-two {
     background-color: #fff;
 }
 
-.two-content {
+.section-two-content {
     display: inline;
     justify-content: space-around;
     align-items: center;
 }
 
-.two-text {
+.section-two-text {
     color: #1F2937;
     font-size: 36px;
     font-weight: 800;
@@ -102,20 +102,20 @@ button {
     padding-top: 50px;
 }
 
-.body-two-img {
+.random-pictures img {
     width: 200px;
     height: auto;
     border: 4px solid #3882f6;
     border-radius: 7px;
 }
 
-.random-pics {
+.random-pictures {
     display: flex;
     justify-content: space-evenly;
     padding: 50px 200px;
 }
 
-.random-pics p{    
+.random-pictures p{    
     width: 200px;
     height: auto;
     color: #777;
@@ -125,23 +125,23 @@ button {
     padding-bottom: 50px;
 } 
 
-.pixabay {
+#pixabay {
     font-weight: 500;
 }
 
-/** Body Three **/
-.body-three {
+/** Section Three **/
+.section-three {
     background-color: #E5E7EB;
     padding: 100px 200px;
 }
 
-.three-content {
+.section-three-content {
     display: inline;
     align-items: center;
     justify-content: center;
 }
 
-.quote {
+#quote {
     color: #1f2937;
     font-size: 36px;
     font-weight: 200;
@@ -149,46 +149,47 @@ button {
     text-align: center;
 }
 
-.quote-by {
+#quote-by {
     color: #1f2937;
     font-size: 24px;
     font-weight: 500;
     text-align: right;
 }
 
-/** Body Four **/
-.body-four {
+/** Section Four **/
+.section-four {
     background-color: #fff;
     padding: 100px 200px;
 }
 
-.four-content {
+.section-four-content {
     display: flex;
     justify-content: space-around;
     background-color: #3882f6;
     color: #E5E7EB;
     padding: 50px 50px;
-    border-radius: 7px;
-}
-
-.button-four {
-    color: #E5E7EB;
-    text-align: center;
-    border: 2px solid #E5E7EB;
-    border-radius: 7px;
+    border-radius: 8px;
 }
 
 .four text {
     color: #E5E7EB;
+    font-weight: 300;
 }
 
-.four text, .text-one {
+#bold {
     font-size: 22px;
     font-weight: 700;
 }
 
-.four text, .text-two {
-    font-weight: 300;
+.button-section-four button {
+    border: 2px solid #E5E7EB;
+    font-size: 18px;
+    width: 120px;
+    height: 35px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #3882f6;
+    color: #E5E7EB;
 }
 
 /** Footer **/

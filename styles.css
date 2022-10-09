@@ -126,7 +126,15 @@
 } 
 
 #pixabay {
+    text-decoration: none;
+    color: #777;
     font-weight: 500;
+}
+
+#pixabay:hover {
+    color: #3882f6;
+    transition: ease-in 0.3s;
+    cursor: pointer;
 }
 
 /** Section Three **/
